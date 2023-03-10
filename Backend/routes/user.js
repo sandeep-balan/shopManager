@@ -104,7 +104,7 @@ router.post("/forgotPassword", (req, res) => {
             results[0].email +
             "<br> Password: " +
             results[0].password +
-            "<br> <a href='http://localhost:4200'>Click Here to Login</a>" +
+            "<br> <a href='https://shop-manager.netlify.app/'>Click Here to Login</a>" +
             "</p>",
         };
 
