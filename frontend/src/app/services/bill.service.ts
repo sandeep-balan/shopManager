@@ -7,7 +7,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root',
 })
 export class BillService {
-  url: string = environment.apiURL;
+  url: string = "https://shopmanager.onrender.com/";
   jsonHeader = {
     headers: new HttpHeaders().set('Content-Type', 'application/json'),
   };
