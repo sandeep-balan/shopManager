@@ -6,7 +6,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root',
 })
 export class ProductService {
-  url: string = "https://shopmanager.onrender.com/";
+  url: string = "https://shopmanager.onrender.com";
   jsonHeader = {
     headers: new HttpHeaders().set('Content-Type', 'application/json'),
   };

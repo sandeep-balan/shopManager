@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  apiURL: 'https://shopmanager.onrender.com/'
+  apiURL: 'https://shopmanager.onrender.com'
 };

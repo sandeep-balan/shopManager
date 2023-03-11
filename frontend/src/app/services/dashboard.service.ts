@@ -6,7 +6,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root',
 })
 export class DashboardService {
-  url: string ="https://shopmanager.onrender.com/" ;
+  url: string ="https://shopmanager.onrender.com" ;
 
   constructor(private http: HttpClient) {}
 
