@@ -147,7 +147,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 const environment = {
     production: false,
-    apiURL: 'https://shopmanager.onrender.com/'
+    apiURL: 'https://shopmanager.onrender.com'
 };
 
 
@@ -1425,7 +1425,7 @@ __webpack_require__.r(__webpack_exports__);
 class UserService {
     constructor(http) {
         this.http = http;
-        this.url = "https://shopmanager.onrender.com/";
+        this.url = "https://shopmanager.onrender.com";
         this.jsonHeader = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]().set('Content-Type', 'application/json'),
         };

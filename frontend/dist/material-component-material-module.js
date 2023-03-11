@@ -1432,7 +1432,7 @@ __webpack_require__.r(__webpack_exports__);
 class ProductService {
     constructor(http) {
         this.http = http;
-        this.url = "https://shopmanager.onrender.com/";
+        this.url = "https://shopmanager.onrender.com";
         this.jsonHeader = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]().set('Content-Type', 'application/json'),
         };
@@ -1768,7 +1768,7 @@ __webpack_require__.r(__webpack_exports__);
 class BillService {
     constructor(http) {
         this.http = http;
-        this.url = "https://shopmanager.onrender.com/";
+        this.url = "https://shopmanager.onrender.com";
         this.jsonHeader = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]().set('Content-Type', 'application/json'),
         };
@@ -1812,7 +1812,7 @@ __webpack_require__.r(__webpack_exports__);
 class CategoryService {
     constructor(http) {
         this.http = http;
-        this.url = "https://shopmanager.onrender.com/";
+        this.url = "https://shopmanager.onrender.com";
         this.jsonHeader = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]().set('Content-Type', 'application/json'),
         };

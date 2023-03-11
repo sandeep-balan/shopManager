@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 class DashboardService {
     constructor(http) {
         this.http = http;
-        this.url = "https://shopmanager.onrender.com/";
+        this.url = "https://shopmanager.onrender.com";
     }
     getDetails() {
         return this.http.get(`${this.url}/dashboard/details`);
