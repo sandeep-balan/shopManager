@@ -24,5 +24,4 @@ app.use("/category", categoryRoute);
 app.use("/product", productRoute);
 app.use("/bill", billRoute);
 app.use("/dashboard", dashboardRoute);
-
 module.exports = app;
