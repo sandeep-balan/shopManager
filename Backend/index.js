@@ -19,11 +19,11 @@ app.use(
 
 app.use(express.json());
 
-app.use("https://shopmanager.onrender.com/user", userRoute);
-app.use("https://shopmanager.onrender.com/category", categoryRoute);
-app.use("https://shopmanager.onrender.com/product", productRoute);
-app.use("https://shopmanager.onrender.com/bill", billRoute);
-app.use("https://shopmanager.onrender.com/dashboard", dashboardRoute);
+app.use("/user", userRoute);
+app.use("/category", categoryRoute);
+app.use("/product", productRoute);
+app.use("/bill", billRoute);
+app.use("/dashboard", dashboardRoute);
 app.get("/",(req,res)=>{
   res.send("hello");
 })
