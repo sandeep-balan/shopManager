@@ -5,4 +5,4 @@ const app = require("./index");
 
 const server = http.createServer(app);
 
-server.listen("https://shopmanager.onrender.com");
+server.listen("https://shopmanager.onrender.com/");
