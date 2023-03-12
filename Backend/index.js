@@ -24,4 +24,7 @@ app.use("https://shopmanager.onrender.com/category", categoryRoute);
 app.use("https://shopmanager.onrender.com/product", productRoute);
 app.use("https://shopmanager.onrender.com/bill", billRoute);
 app.use("https://shopmanager.onrender.com/dashboard", dashboardRoute);
+app.get("/",(req,res)=>{
+  res.send("hello");
+})
 module.exports = app;
